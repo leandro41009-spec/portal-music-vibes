@@ -3,42 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Nós | Music Vibes</title>
+    <title>Quem Somos | Music Vibes</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-950 text-white font-sans">
 
-    <main class="max-w-4xl mx-auto p-10">
-        <h1 class="text-4xl font-black text-green-500 mb-8 tracking-tighter">QUEM SOMOS</h1>
+    <header class="p-6 bg-gray-900 border-b border-gray-800 sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-black text-green-500 tracking-tighter">MUSIC<span class="text-white">VIBES</span></h1>
+            <nav class="hidden md:flex space-x-6 text-sm font-medium uppercase">
+                <a href="index.html" class="hover:text-green-500 transition">Notícias</a>
+                <a href="playlists.html" class="hover:text-green-500 transition">Playlists</a>
+                <a href="lndr-music.html" class="hover:text-green-500 transition">LNDR-music</a>
+                <a href="contato.html" class="hover:text-green-500 transition">Contato</a>
+                <a href="artigo-ia.html" class="hover:text-purple-400 transition text-purple-500 font-bold">Music IA</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto p-6 py-16">
+        <h2 class="text-4xl font-black text-green-500 mb-8 uppercase">QUEM SOMOS</h2>
         
-        <div class="space-y-6 text-gray-300 leading-relaxed">
+        <div class="space-y-6 text-gray-400 leading-relaxed max-w-3xl">
             <p>O <strong>Music Vibes</strong> nasceu em 2026 com o objetivo de ser a ponte entre os grandes sucessos das paradas mundiais e o cenário independente que ferve no underground.</p>
-            
             <p>Nossa missão é oferecer uma curadoria humana e autêntica. Em um mundo dominado por algoritmos, acreditamos que a indicação de um especialista ainda é a melhor forma de descobrir sua nova música favorita.</p>
         </div>
 
-        <h2 class="text-2xl font-bold mt-12 mb-8 text-white">Nossa Equipe Editorial</h2>
-
+        <h3 class="text-2xl font-bold mt-16 mb-8 text-white">Nossa Equipe Editorial</h3>
+        
         <div class="grid md:grid-cols-2 gap-8">
-            <div class="bg-gray-900 p-6 rounded-2xl border border-gray-800">
-                <div class="w-16 h-16 bg-green-500 rounded-full mb-4 flex items-center justify-center text-2xl font-bold text-black">LR</div>
-                <h3 class="text-xl font-bold text-white">Lucas "Beat" Rocha</h3>
-                <p class="text-green-500 text-sm mb-3">Editor-Chefe</p>
+            <div class="bg-gray-900 p-8 rounded-2xl border border-gray-800">
+                <div class="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center text-black font-bold mb-4 text-xl">LR</div>
+                <h4 class="text-xl font-bold text-white">Lucas "Beat" Rocha</h4>
+                <p class="text-green-500 text-sm mb-4">Editor-Chefe</p>
                 <p class="text-gray-400 text-sm">Jornalista musical focado em cultura pop e análise de dados das paradas globais.</p>
             </div>
 
-            <div class="bg-gray-900 p-6 rounded-2xl border border-gray-800">
-                <div class="w-16 h-16 bg-blue-500 rounded-full mb-4 flex items-center justify-center text-2xl font-bold text-black">CM</div>
-                <h3 class="text-xl font-bold text-white">Carla Mel</h3>
-                <p class="text-green-500 text-sm mb-3">Curadora de Talentos</p>
+            <div class="bg-gray-900 p-8 rounded-2xl border border-gray-800">
+                <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-black font-bold mb-4 text-xl">CM</div>
+                <h4 class="text-xl font-bold text-white">Carla Mel</h4>
+                <p class="text-blue-500 text-sm mb-4">Curadora de Talentos</p>
                 <p class="text-gray-400 text-sm">Especialista em descobrir novos artistas independentes e tendências virais.</p>
             </div>
         </div>
-
-        <div class="mt-12 pt-10 border-t border-gray-800 text-center">
-            <a href="index.html" class="text-green-500 hover:underline">← Voltar para a Home</a>
-        </div>
     </main>
+
+    <footer class="bg-gray-900 border-t border-gray-800 pt-12 pb-8 mt-20">
+        <div class="max-w-5xl mx-auto px-6 text-left">
+            <div class="grid md:grid-cols-3 gap-12 mb-12">
+                <div>
+                    <h2 class="text-xl font-black text-green-500 tracking-tighter mb-4">MUSIC<span class="text-white">VIBES</span></h2>
+                    <p class="text-gray-400 text-sm">Explorando a essência do Synthwave, Pop e as novas fronteiras da Music IA.</p>
+                </div>
+                <div>
+                    <h3 class="text-white font-bold mb-4 uppercase text-xs tracking-widest">Links Úteis</h3>
+                    <ul class="space-y-2 text-sm text-gray-500">
+                        <li><a href="sobre.html" class="hover:text-green-500 transition">Sobre o Portal</a></li>
+                        <li><a href="contato.html" class="hover:text-green-500 transition">Entre em Contato</a></li>
+                        <li><a href="privacidade.html" class="hover:text-green-500 transition">Privacidade</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white font-bold mb-4 uppercase text-xs tracking-widest">Acompanhe LNDR</h3>
+                    <a href="lndr-music.html" class="inline-block bg-green-600 text-black text-xs font-black px-4 py-2 rounded uppercase hover:bg-green-500 transition">Ver Catálogo</a>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-center">
+                <p class="text-gray-600 text-[10px] uppercase tracking-[0.2em]">&copy; 2026 Music Vibes Portal - Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
